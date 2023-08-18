@@ -118,4 +118,11 @@ footer a:hover {
     padding: 8px 16px;
     letter-spacing: 2px;
   }
+  .footer-grid {
+    grid-template-columns: 1fr;
+    grid-gap: 0px;
+  }
+  footer {
+    padding: 30px;
+  }
 }
