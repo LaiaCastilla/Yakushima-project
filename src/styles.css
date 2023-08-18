@@ -131,6 +131,10 @@ main h2 {
   aspect-ratio: 1/1;
   object-fit: cover;
 }
+.embed {
+  width: 100%;
+  aspect-ratio: 1/1;
+}
 .card-body {
   padding: 24px 32px;
 }
@@ -247,6 +251,15 @@ footer a:hover {
   .spots-grid {
     margin: 31px 0px;
     padding: 30px;
+  }
+  .card-header {
+    grid-template-columns: 1fr;
+  }
+  .img-card {
+    aspect-ratio: 16/9;
+  }
+  iframe {
+    display: none;
   }
 
   footer {
