@@ -1,18 +1,7 @@
 header {
   max-width: 100%;
 }
-#carouselExampleSlidesOnly {
-  position: absolute;
-  top: 0px;
-  z-index: 10;
-}
-.overlay-text {
-  z-index: 20;
-  position: absolute;
-  line-height: normal;
-  text-align: center;
-  color: white;
-}
+
 h1 {
   font-family: "Cinzel";
   font-size: 96px;
