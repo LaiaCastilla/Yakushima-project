@@ -88,7 +88,7 @@ main h2 {
 }
 .more-about h2 {
   font-size: 40px;
-
+  text-align: left;
   line-height: 50px;
   margin-bottom: 15px;
 }
@@ -154,6 +154,7 @@ section p {
   opacity: 0.7;
 }
 .card-btn {
+  margin-top: 48px;
   display: flex;
   padding: 16px 32px;
   justify-content: center;
