@@ -2,9 +2,17 @@ body {
   background-color: #092c0b;
   font-family: "Poppins", sans-serif;
 }
-.container {
+.frame {
   max-width: 1400px;
   margin: 0 auto;
+  background-color: #f8f8f8;
+}
+main {
+  background-color: white;
+}
+.grid {
+  display: grid;
+  grid-gap: 64px;
 }
 
 header {
@@ -54,10 +62,39 @@ header a {
   display: inline-block;
   border-radius: 2px;
 }
+.more-about {
+  padding: 70px 100px;
+}
+.more-about h2 {
+  color: #092c0b;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 50px;
+  margin-bottom: 15px;
+}
+.more-about p {
+  color: #092c0b;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  opacity: 0.7;
+}
+.about-grid {
+  grid-template-columns: 1fr 1fr;
+}
+img {
+  aspect-ratio: 4/3;
+}
+.carousel {
+  display: flex;
+  place-self: center stretch;
+}
 .footer-grid {
-  display: grid;
   grid-template-columns: 1fr 2fr 2fr;
-  grid-gap: 64px;
 }
 footer {
   color: white;
@@ -101,6 +138,10 @@ footer a:hover {
 }
 
 @media (max-width: 960px) {
+  .grid {
+    grid-template-columns: 1fr;
+    grid-gap: 32px;
+  }
   header {
     padding: 60px 0 90px 0;
   }
@@ -118,9 +159,13 @@ footer a:hover {
     padding: 8px 16px;
     letter-spacing: 2px;
   }
+  .more-about {
+    padding: 30px;
+  }
+  .more-about h2 {
+    margin-bottom: 18px;
+  }
   .footer-grid {
-    grid-template-columns: 1fr;
-    grid-gap: 0px;
   }
   footer {
     padding: 30px;
