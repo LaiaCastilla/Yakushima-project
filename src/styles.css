@@ -165,9 +165,8 @@ footer a:hover {
   .more-about h2 {
     margin-bottom: 18px;
   }
-  .footer-grid {
-  }
+
   footer {
-    padding: 30px;
+    padding: 50px 30px;
   }
 }
