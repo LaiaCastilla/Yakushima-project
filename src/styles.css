@@ -1,5 +1,27 @@
+body {
+  /* background-color: #092c0b; */
+  font-family: "Poppins", sans-serif;
+}
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+}
 header {
-  max-width: 100%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url("/images/marek-piwnicki-JomonSugi.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  text-align: center;
+  padding-top: 263px;
+  padding-bottom: 293px;
+}
+h3 {
+  font-size: 24px;
+  font-weight: 900;
+  line-height: normal;
+  letter-spacing: 5px;
+  margin-bottom: 0px;
 }
 
 h1 {
@@ -7,14 +29,14 @@ h1 {
   font-size: 96px;
   font-weight: 700;
   line-height: normal;
-  text-align: center;
-  margin-bottom: 0px;
+  margin: 0px;
 }
 h2 {
   font-family: "Playfair Display";
   font-size: 40px;
   font-weight: 400;
-  text-align: center;
   line-height: normal;
   margin-top: 0px;
+}
+.hero-btn {
 }
