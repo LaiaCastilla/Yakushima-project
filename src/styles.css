@@ -244,6 +244,10 @@ footer a:hover {
   .more-about h2 {
     margin-bottom: 18px;
   }
+  .spots-grid {
+    margin: 31px 0px;
+    padding: 30px;
+  }
 
   footer {
     padding: 50px 30px;
