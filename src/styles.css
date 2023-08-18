@@ -1,5 +1,5 @@
 body {
-  /* background-color: #092c0b; */
+  background-color: #092c0b;
   font-family: "Poppins", sans-serif;
 }
 .container {
@@ -28,15 +28,28 @@ h1 {
   font-family: "Cinzel";
   font-size: 96px;
   font-weight: 700;
-  line-height: normal;
+  line-height: 1.5;
   margin: 0px;
 }
 h2 {
   font-family: "Playfair Display";
   font-size: 40px;
   font-weight: 400;
-  line-height: normal;
+  line-height: 1.5;
   margin-top: 0px;
 }
-.hero-btn {
+
+header a {
+  color: #092c0b;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.5;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  background-color: white;
+  text-decoration: none;
+  padding: 16px 32px;
+  display: inline-block;
+  border-radius: 2px;
 }
