@@ -179,7 +179,7 @@ section p {
 }
 .gallery-grid {
   grid-template-columns: 1fr 1fr 1fr;
-  padding: 50px 171px 0px;
+  padding: 50px 150px 0px;
 }
 .footer-grid {
   grid-template-columns: 1fr 2fr 2fr;
@@ -271,8 +271,7 @@ footer a:hover {
     display: none;
   }
   .gallery-grid {
-    padding: 60px;
-    padding-bottom: 0px;
+    padding: 60px 10px 0px;
   }
 
   footer {
