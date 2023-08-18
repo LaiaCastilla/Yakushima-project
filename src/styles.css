@@ -53,3 +53,23 @@ header a {
   display: inline-block;
   border-radius: 2px;
 }
+
+@media (max-width: 900px) {
+  header {
+    padding: 60px 0;
+  }
+  header h1 {
+    font-size: 48px;
+  }
+  header h2 {
+    font-size: 20px;
+  }
+  header h3 {
+    font-size: 12px;
+  }
+  header a {
+    font-size: 7px;
+    padding: 8px 16px;
+    letter-spacing: 2px;
+  }
+}
