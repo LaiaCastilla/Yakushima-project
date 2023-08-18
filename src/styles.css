@@ -1,9 +1,25 @@
+header {
+  max-width: 100%;
+}
+#carouselExampleSlidesOnly {
+  position: absolute;
+  top: 0px;
+  z-index: 10;
+}
+.overlay-text {
+  z-index: 20;
+  position: absolute;
+  line-height: normal;
+  text-align: center;
+  color: white;
+}
 h1 {
   font-family: "Cinzel";
   font-size: 96px;
   font-weight: 700;
   line-height: normal;
   text-align: center;
+  margin-bottom: 0px;
 }
 h2 {
   font-family: "Playfair Display";
@@ -11,4 +27,5 @@ h2 {
   font-weight: 400;
   text-align: center;
   line-height: normal;
+  margin-top: 0px;
 }
